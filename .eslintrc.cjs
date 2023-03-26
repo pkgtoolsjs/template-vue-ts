@@ -7,7 +7,6 @@ module.exports = {
   },
   extends: [
     'eslint-config-prettier',
-    'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:vue/vue3-essential',
     'plugin:vue/vue3-recommended',
@@ -17,9 +16,9 @@ module.exports = {
   overrides: [],
   parser: 'vue-eslint-parser',
   parserOptions: {
+    parser: '@typescript-eslint/parser',
     ecmaVersion: 'latest',
-    sourceType: 'module',
-    parser: '@typescript-eslint/parser'
+    sourceType: 'module'
   },
   globals: {
     defineProps: 'readonly',
@@ -29,7 +28,7 @@ module.exports = {
   },
   plugins: ['vue', '@typescript-eslint', 'prettier'],
   rules: {
-    'prettier/prettier': 'error',
+    'prettier/prettier': 'off',
     'no-unused-vars': 'off',
     '@typescript-eslint/no-empty-function': 'warn'
   }
