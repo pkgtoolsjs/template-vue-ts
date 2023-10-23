@@ -12,10 +12,10 @@ npm install
 npm run dev
 ```
 
-## Key Features
+## Features
 
 * Vite + Vue3 + TypeScript
-* ESLint
+* ESLint + Prettier
 * Auto Import (unplugin-auto-import + unplugin-vue-components)
 
 ## Recommended IDE Setup
