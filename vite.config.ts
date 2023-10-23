@@ -35,6 +35,7 @@ export default defineConfig({
     }),
     Components({
       dts: 'src/typings/components.d.ts',
+      resolvers: [],
       allowOverrides: true
     })
   ]
