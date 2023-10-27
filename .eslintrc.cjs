@@ -29,7 +29,12 @@ module.exports = {
   plugins: ['vue', '@typescript-eslint', 'prettier'],
   rules: {
     'prettier/prettier': 'off',
-    'no-unused-vars': 'off',
-    '@typescript-eslint/no-empty-function': 'warn'
+    'no-undef': 'off',
+    'no-unref': 'off',
+    'no-control-regex': 'off',
+    'no-unused-vars': 'warn',
+    '@typescript-eslint/no-unused-vars': 'off',
+    '@typescript-eslint/no-empty-function': 'warn',
+    'vue/no-unused-vars': 'off'
   }
 }
