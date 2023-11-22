@@ -10,7 +10,6 @@ import { fileURLToPath } from 'node:url'
 export default defineConfig({
   server: {
     host: '0.0.0.0',
-    port: 8081,
     strictPort: true
   },
   resolve: {
