@@ -6,12 +6,9 @@ module.exports = {
     es2021: true
   },
   extends: [
-    'eslint-config-prettier',
     'plugin:@typescript-eslint/recommended',
-    'plugin:vue/vue3-essential',
     'plugin:vue/vue3-recommended',
-    'prettier',
-    'plugin:prettier/recommended'
+    'prettier'
   ],
   overrides: [],
   parser: 'vue-eslint-parser',
@@ -26,13 +23,12 @@ module.exports = {
     defineExpose: 'readonly',
     withDefaults: 'readonly'
   },
-  plugins: ['vue', '@typescript-eslint', 'prettier'],
+  plugins: ['vue', '@typescript-eslint'],
   rules: {
-    'prettier/prettier': 'off',
     'no-undef': 'off',
     'no-unref': 'off',
     'no-control-regex': 'off',
-    'no-unused-vars': 'warn',
+    'no-unused-vars': 'off',
     '@typescript-eslint/no-unused-vars': 'off',
     '@typescript-eslint/no-empty-function': 'warn',
     'vue/no-unused-vars': 'off'
