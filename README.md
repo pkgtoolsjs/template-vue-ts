@@ -14,9 +14,9 @@ npm run dev
 
 ## Features
 
-* Vite + Vue3 + TypeScript
-* ESLint + Prettier
-* Auto Import (unplugin-auto-import + unplugin-vue-components)
+- Vite + Vue3 + TypeScript
+- ESLint + Prettier
+- Auto Import (unplugin-auto-import + unplugin-vue-components)
 
 ## Recommended IDE Setup
 
