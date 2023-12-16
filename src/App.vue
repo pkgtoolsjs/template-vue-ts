@@ -1,9 +1,14 @@
 <script setup lang="ts">
 /**
- * When using package `unplugin-vue-components`
- * You don't need to do `import (some components) ...`
+ * When using package `unplugin-auto-import` and `unplugin-vue-components`
+ * It will automatically import components and vue api functions for you
  * Just enjoy your time :)
+ *
+ * @see [unplugin-auto-import](https://github.com/unplugin/unplugin-auto-import)
+ * @see [unplugin-vue-components](https://github.com/unplugin/unplugin-vue-components)
  */
+
+// import { ref } from 'vue'
 // import HelloWorld from './components/HelloWorld.vue'
 </script>
 
@@ -19,7 +24,7 @@
   <HelloWorld msg="Vite + Vue + TS" />
 </template>
 
-<style lang="less" scoped>
+<style scoped lang="less">
 .logo {
   height: 6em;
   padding: 1.5em;
