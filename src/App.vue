@@ -16,7 +16,7 @@
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <HelloWorld msg="Vite + Vue + TS + ESLint" />
+  <HelloWorld msg="Vite + Vue + TS" />
 </template>
 
 <style lang="less" scoped>
