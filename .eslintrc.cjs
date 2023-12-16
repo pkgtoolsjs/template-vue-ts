@@ -5,6 +5,13 @@ module.exports = {
     node: true,
     es2021: true
   },
+  globals: {
+    defineProps: 'readonly',
+    defineEmits: 'readonly',
+    defineExpose: 'readonly',
+    withDefaults: 'readonly'
+  },
+  plugins: ['vue', '@typescript-eslint'],
   extends: [
     'plugin:@typescript-eslint/recommended',
     'plugin:vue/vue3-recommended',
@@ -17,13 +24,6 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module'
   },
-  globals: {
-    defineProps: 'readonly',
-    defineEmits: 'readonly',
-    defineExpose: 'readonly',
-    withDefaults: 'readonly'
-  },
-  plugins: ['vue', '@typescript-eslint'],
   rules: {
     'no-undef': 'off',
     'no-unref': 'off',
