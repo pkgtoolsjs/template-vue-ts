@@ -1,10 +1,9 @@
 import path from 'node:path'
+import { fileURLToPath } from 'node:url'
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
-import eslint from 'vite-plugin-eslint'
 import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components/vite'
-import { fileURLToPath } from 'node:url'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -26,17 +25,13 @@ export default defineConfig({
   },
   plugins: [
     vue(),
-    eslint({
-      cache: true
-    }),
     AutoImport({
-      imports: ['vue', 'vue-router'],
+      imports: ['vue'],
       dts: 'src/types/auto-imports.d.ts'
     }),
     Components({
       dts: 'src/types/components.d.ts',
-      resolvers: [],
-      allowOverrides: true
+      resolvers: []
     })
   ]
 })
