@@ -24,6 +24,7 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module'
   },
+  ignorePatterns: ['dist', '.eslintrc.cjs'],
   rules: {
     'no-undef': 'off',
     'no-unref': 'off',
