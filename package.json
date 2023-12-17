@@ -1,6 +1,5 @@
 {
   "name": "template-vue-ts",
-  "description": "A template using vite and vue",
   "private": true,
   "version": "1.0.0",
   "type": "module",
