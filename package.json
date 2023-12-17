@@ -5,8 +5,8 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "lint": "eslint --cache .",
-    "lint:fix": "eslint --fix --cache .",
+    "lint": "eslint --cache ./src",
+    "lint:fix": "eslint --fix --cache ./src",
     "format": "prettier --write --cache .",
     "dev": "vite",
     "build": "vue-tsc && vite build",
