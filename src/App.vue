@@ -1,7 +1,7 @@
 <script setup lang="ts">
 /**
- * When using package `unplugin-auto-import` and `unplugin-vue-components`
- * It will automatically import components and vue api functions for you
+ * When using package `unplugin-auto-import` and `unplugin-vue-components`,
+ * It will automatically import components and vue api functions for you.
  * Just enjoy your time :)
  *
  * @see [unplugin-auto-import](https://github.com/unplugin/unplugin-auto-import)
