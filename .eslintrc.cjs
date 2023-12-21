@@ -30,9 +30,9 @@ module.exports = {
     'no-undef': 'off',
     'no-unref': 'off',
     'no-control-regex': 'off',
-    'no-unused-vars': 'off',
-    '@typescript-eslint/no-unused-vars': 'off',
+    'no-unused-vars': 'warn',
+    '@typescript-eslint/no-unused-vars': 'warn',
     '@typescript-eslint/no-empty-function': 'warn',
-    'vue/no-unused-vars': 'off'
+    'vue/no-unused-vars': 'warn'
   }
 }
