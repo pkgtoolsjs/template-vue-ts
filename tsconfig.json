@@ -1,26 +1,14 @@
 {
-  "compilerOptions": {
-    "target": "ESNext",
-    "module": "ESNext",
-    "strict": true,
-    "jsx": "preserve",
-    "useDefineForClassFields": true,
-    "importHelpers": true,
-    "moduleResolution": "Bundler",
-    "skipLibCheck": true,
-    "noEmit": true,
-    "esModuleInterop": true,
-    "allowImportingTsExtensions": true,
-    "allowSyntheticDefaultImports": true,
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "sourceMap": true,
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["src/*"]
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
     },
-    "lib": ["ESNext", "DOM", "DOM.Iterable", "ScriptHost", "WebWorker"]
-  },
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.vitest.json"
+    }
+  ]
 }
