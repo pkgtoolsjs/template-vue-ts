@@ -29,6 +29,14 @@ export default defineConfigWithVueTs(
   skipFormatting,
 
   {
+    name: 'app/unplugin-vue-router',
+    files: ['src/pages/**/*.vue'],
+    rules: {
+      'vue/multi-word-component-names': 'off'
+    }
+  },
+
+  {
     files: ['**/*.{ts,mts,tsx,vue}'],
     rules: {
       'no-unref': 'off',
