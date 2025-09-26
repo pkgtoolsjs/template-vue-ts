@@ -64,7 +64,7 @@
     "unplugin-vue-router": "^0.15.0",
     "vite": "npm:rolldown-vite@latest",
     "vite-plugin-vue-devtools": "^8.0.2",
-    "vitest": "^4.0.0-beta.12",
+    "vitest": "^4.0.0-beta.13",
     "vue-tsc": "^3.0.8"
   }
 }
