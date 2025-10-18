@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "postinstall": "node -e \"try{require('./scripts/postinstall.js')}catch(e){}\"",
+    "postinstall": "node -e \"try{import('./scripts/postinstall.js')}catch(e){}\"",
     "dev": "vite",
     "build": "run-p type-check \"build-only {@}\" --",
     "preview": "vite preview",
