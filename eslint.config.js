@@ -23,7 +23,7 @@ export default defineConfigWithVueTs(
   },
 
   {
-    name: 'app/unplugin-vue-router',
+    name: 'app/unplugin-vue-router/pages',
     files: ['src/pages/**/*.vue'],
     rules: {
       'vue/multi-word-component-names': 'off'
@@ -33,6 +33,11 @@ export default defineConfigWithVueTs(
   {
     name: 'app/custom-rules',
     files: ['**/*.{ts,mts,tsx,vue}'],
+    languageOptions: {
+      globals: {
+        definePage: 'readonly'
+      }
+    },
     rules: {
       'no-unref': 'off',
       'no-control-regex': 'off',
