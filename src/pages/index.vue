@@ -1,4 +1,10 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+definePage({
+  meta: {
+    title: 'Hello World, Vue!'
+  }
+})
+</script>
 
 <template>
   <main>
