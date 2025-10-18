@@ -32,6 +32,7 @@
   },
   "license": "MIT",
   "dependencies": {
+    "@vueuse/core": "^14.0.0-beta.1",
     "pinia": "^3.0.3",
     "vue": "^3.5.22",
     "vue-router": "^4.6.3"
@@ -64,7 +65,7 @@
     "unplugin-vue-router": "^0.16.0",
     "vite": "npm:rolldown-vite@latest",
     "vite-plugin-vue-devtools": "^8.0.3",
-    "vitest": "^4.0.0-beta.16",
+    "vitest": "^4.0.0-beta.18",
     "vue-tsc": "^3.1.1"
   }
 }
