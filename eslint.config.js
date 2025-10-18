@@ -31,6 +31,7 @@ export default defineConfigWithVueTs(
   },
 
   {
+    name: 'app/custom-rules',
     files: ['**/*.{ts,mts,tsx,vue}'],
     rules: {
       'no-unref': 'off',
